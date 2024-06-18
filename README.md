@@ -28,8 +28,8 @@ The current validity period of token is 60 minutes
   db_name: **FlaskTest**
 
 - You have to create table as below script
-  ```sql
-  CREATE TABLE IF NOT EXISTS public.users
+```sql
+CREATE TABLE IF NOT EXISTS public.users
 (
     id character varying COLLATE pg_catalog."default" NOT NULL,
     username character varying(64) COLLATE pg_catalog."default" NOT NULL,
@@ -39,6 +39,5 @@ The current validity period of token is 60 minutes
     CONSTRAINT users_email_key UNIQUE (email),
     CONSTRAINT users_username_key UNIQUE (username)
 )
-
 TABLESPACE pg_default;
 ```
