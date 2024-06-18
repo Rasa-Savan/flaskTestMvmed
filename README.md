@@ -41,3 +41,5 @@ CREATE TABLE IF NOT EXISTS public.users
 )
 TABLESPACE pg_default;
 ```
+
+- Full API Documentation can be view in file **APIDocumentation.pdf** under path **/static**
